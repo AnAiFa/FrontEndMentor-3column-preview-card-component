@@ -83,3 +83,36 @@ button {
     text-align: center;
 }
 
+@media only screen and (min-width: 970px) {
+    main {
+        margin: 18vh 30vh;
+        display: flex;
+    }
+    .card {
+        position: relative;
+        button {
+            position: absolute;
+            bottom: 2.5em;
+            cursor: pointer;
+        }
+        .btn-sedans:hover {
+            color: $transparent-white;
+            background-color: $bright-orange;
+            border: 2px solid $very-light-gray;
+        }
+        .btn-suv:hover {
+            color: $transparent-white;
+            background-color: $dark-cyan;
+            border: 2px solid $very-light-gray;
+        }
+        .btn-luxury:hover {
+            color: $transparent-white;
+            background-color: $very-dark-cyan;
+            border: 2px solid $very-light-gray;
+        }
+        p {
+            padding-bottom: 9em;
+        }
+    }
+}
+

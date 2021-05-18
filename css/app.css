@@ -77,4 +77,39 @@ button {
 .footer {
   text-align: center;
 }
+
+@media only screen and (min-width: 970px) {
+  main {
+    margin: 18vh 30vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .card {
+    position: relative;
+  }
+  .card button {
+    position: absolute;
+    bottom: 2.5em;
+    cursor: pointer;
+  }
+  .card .btn-sedans:hover {
+    color: rgba(255, 255, 255, 0.75);
+    background-color: #e38826;
+    border: 2px solid #f2f2f2;
+  }
+  .card .btn-suv:hover {
+    color: rgba(255, 255, 255, 0.75);
+    background-color: #006970;
+    border: 2px solid #f2f2f2;
+  }
+  .card .btn-luxury:hover {
+    color: rgba(255, 255, 255, 0.75);
+    background-color: #004241;
+    border: 2px solid #f2f2f2;
+  }
+  .card p {
+    padding-bottom: 9em;
+  }
+}
 /*# sourceMappingURL=app.css.map */
