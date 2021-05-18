@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+$bright-orange:hsl(31, 77%, 52%);
+$dark-cyan:hsl(184, 100%, 22%);
+$very-dark-cyan:hsl(179, 100%, 13%);
+//paragraphs
+$transparent-white:hsla(0, 0%, 100%, 0.75);
+//background, headings, buttons
+$very-light-gray:hsl(0, 0%, 95%);
+
+html {
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    background-color: $very-light-gray;
+}
+
+h1 {
+    margin: .5em 0;
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    font-family: 'Big Shoulders Display';
+    color: $very-light-gray;
+}
+
+
+p {
+    font-family: 'Lexend Deca';
+    color: $transparent-white;
+    margin-bottom: 1em;
+}
+
+main {
+    margin: 12vh 5vh;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card {
+    padding: 2.5em;
+}
+
+.sedans-card {
+    background-color: $bright-orange;
+    .btn-sedans {
+        color: $bright-orange;
+    }
+}
+
+.suv-card {
+    background-color: $dark-cyan;
+    .btn-suv {
+        color: $dark-cyan;
+    }
+}
+
+.luxury-card {
+    background-color: $very-dark-cyan;
+    .btn-luxury {
+        color: $very-dark-cyan;
+    }
+}
+
+button {
+    padding: 1em 2em;
+    border: hidden;
+    border-radius: 30px;
+    background-color: $very-light-gray;
+    font-family: 'Lexend Deca';
+}
+
+ .footer {
+    text-align: center;
+}
+
