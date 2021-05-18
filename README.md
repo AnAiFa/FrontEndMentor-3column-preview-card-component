@@ -28,11 +28,11 @@ Users should be able to:
 ### Screenshot
 
 ![Mobile View](/screencapture-127-0-0-1-5500-2021-05-18-18_15_08.png)
-![Desktop View](/)
+![Desktop View](/Screenshot_2021-05-18FrontendMentor3-columnpreviewcardcomponent.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [solution URL here](https://your-solution-url.com)
 - Live Site URL: [live site URL here](https://stoic-ritchie-5e55d6.netlify.app/)
 
 ## My process
