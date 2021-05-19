@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [solution URL here](https://your-solution-url.com)
+- Solution URL: [solution URL here](https://www.frontendmentor.io/solutions/mobile-first-using-sass-NubkR92zr)
 - Live Site URL: [live site URL here](https://stoic-ritchie-5e55d6.netlify.app/)
 
 ## My process
