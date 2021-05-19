@@ -84,6 +84,11 @@ button {
 }
 
 @media only screen and (min-width: 970px) {
+    @mixin btn-hover($bg-color) {
+        color: $transparent-white;
+        background-color: $bg-color;
+        border: 2px solid $very-light-gray;
+    }
     main {
         margin: 18vh 30vh;
         display: flex;
@@ -96,19 +101,13 @@ button {
             cursor: pointer;
         }
         .btn-sedans:hover {
-            color: $transparent-white;
-            background-color: $bright-orange;
-            border: 2px solid $very-light-gray;
+            @include btn-hover($bright-orange);
         }
         .btn-suv:hover {
-            color: $transparent-white;
-            background-color: $dark-cyan;
-            border: 2px solid $very-light-gray;
+            @include btn-hover($dark-cyan);
         }
         .btn-luxury:hover {
-            color: $transparent-white;
-            background-color: $very-dark-cyan;
-            border: 2px solid $very-light-gray;
+            @include btn-hover($very-dark-cyan)
         }
         p {
             padding-bottom: 9em;
